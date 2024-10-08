@@ -8,7 +8,7 @@ export async function sendMsgToOpenAi(message) {
         method: "POST",
         url: "https://api.edenai.run/v2/text/chat",
         headers: {
-            authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMjAxNmZkMzMtZGUzMC00MzAxLWJiMzMtMjM2ODBiMTdlNjkyIiwidHlwZSI6ImFwaV90b2tlbiJ9.QKFWUZRgpEpmz3en33FatfrXPGd3xVapQ59QjqxCJcI",
+            authorization: "",
         },
         data: {
             providers: "openai/gpt-4o",
